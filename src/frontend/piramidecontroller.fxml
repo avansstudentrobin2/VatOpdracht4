@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontend.piramidecontroller">
+   <children>
+      <Label layoutX="95.0" layoutY="98.0" text="Piramide berekenen" />
+      <Label layoutX="95.0" layoutY="147.0" text="Lengte:" />
+      <TextField fx:id="lengthInput" layoutX="97.0" layoutY="170.0" />
+      <Label layoutX="95.0" layoutY="210.0" text="Breedte:" />
+      <TextField fx:id="widthInput" layoutX="97.0" layoutY="236.0" />
+      <Label layoutX="95.0" layoutY="283.0" text="Hoogte:" />
+      <TextField fx:id="heightInput" layoutX="97.0" layoutY="307.0" />
+      <Button layoutX="509.0" layoutY="352.0" mnemonicParsing="false" onAction="#enterShape" text="Invoeren" />
+   </children>
+</AnchorPane>
