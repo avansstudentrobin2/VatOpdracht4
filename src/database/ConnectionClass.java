@@ -1,8 +1,5 @@
 package database;
 import java.sql.*;
-import java.util.ArrayList;
-import java.util.Properties;
-import java.io.*;
 
 public class ConnectionClass {
     private Connection conn;
@@ -52,14 +49,6 @@ public class ConnectionClass {
             result = true;
         }
         return result;
-
-        /*try {
-            Class.forName("com.mysql.cj.jdbc.Driver"); //.newInstance();
-            //this.con = DriverManager.getConnection(this.url, this.user, this.password);
-        } catch(Exception e){
-            e.printStackTrace();
-            System.out.println(e);
-        }*/
     }
 
     public boolean connectionIsOpen() {

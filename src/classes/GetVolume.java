@@ -5,7 +5,7 @@ import Shape.Shape;
 import java.text.DecimalFormat;
 
 public class GetVolume {
-    public Double volumeBol(Shape shape){
+    public double volumeBol(Shape shape){
         double volume = (4.0/3.0) * Math.PI * Math.pow(shape.getRay(), 3);
         DecimalFormat df = new DecimalFormat("#,##");
         volume = Double.valueOf(df.format(volume));
